@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8c8dc">
+
+  <link rel="manifest" href="manifest.webmanifest">
+
+  <title>Becoming</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff9fb;
+      color: #000;
+      text-align: center;
+    }
+
+    .app {
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    .welcome {
+      background: #fce4ec;
+      border-radius: 24px;
+      padding: 25px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="app">
+    <h1>Becoming 🌷</h1>
+
+    <div class="welcome">
+      <h2>Good morning 🌤️</h2>
+      <p>Let’s take today as it comes.</p>
+    </div>
+  </div>
+
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("sw.js");
+      });
+    }
+  </script>
+
+</body>
+</html>
