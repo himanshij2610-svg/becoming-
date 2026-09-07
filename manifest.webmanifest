@@ -1,0 +1,8 @@
+{
+  "name": "Becoming",
+  "short_name": "Becoming",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fffafc",
+  "theme_color": "#fff7fb"
+}
